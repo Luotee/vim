@@ -6,7 +6,7 @@
 " font setting for all platform
 if has("gui_running")
   if has("gui_gtk2")
-    set guifont=Microsoft\ JhengHei\ Mono\ 15
+    set guifont=Microsoft\ JhengHei\ Mono:h15
   elseif has("gui_macvim")
     set guifont=Menlo\ Regular:h14
   elseif has("gui_win32")
