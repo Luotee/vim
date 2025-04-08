@@ -20,7 +20,7 @@ let mapleader=","
 let g:plugin_list = [
     \ "'morhetz/gruvbox'",
     \ "'preservim/nerdtree'",
-    \ "'preservim/nerdcommenter'",
+    \ "'tomtom/tcomment_vim'",
     \ "'mg979/vim-visual-multi'",
     \ "'matze/vim-move'",
     \ "'dense-analysis/ale'",
