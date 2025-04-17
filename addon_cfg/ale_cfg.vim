@@ -1,5 +1,5 @@
 " [ale]
-let g:ale_enable = 0
+let g:ale_enable = 1
 let g:ale_set_highlights = 1
 let g:ale_sign_error = 'XX'
 let g:ale_sign_warning = '!!'
@@ -7,7 +7,12 @@ let g:ale_statusline_format = ['X %d', '! %d', 'O ok']
 let g:ale_echo_msg_error_str = 'Error'
 let g:ale_echo_msg_warning_str = 'Warning'
 let g:ale_echo_msg_format = '[%linter%] %severity%: %s'
-let g:ale_lint_on_enter = 0
+
+let g:ale_lint_on_enter = 1
+let g:ale_lint_on_text_changed = 'normal'
+let g:ale_lint_delay = 500
+let g:ale_lint_on_save = 1
+
 let g:ale_set_loclist = 1
 let g:ale_set_quickfix = 0
 let g:ale_open_list = 1
