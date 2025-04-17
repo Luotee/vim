@@ -1,0 +1,12 @@
+# 確保所有文字檔都用 LF 儲存
+* text=auto eol=lf
+
+# 特定副檔名也強制 LF（可依需求增加）
+*.sh     text eol=lf
+*.vim    text eol=lf
+*.py     text eol=lf
+*.c      text eol=lf
+*.h      text eol=lf
+*.md     text eol=lf
+*.txt    text eol=lf
+*.json   text eol=lf
